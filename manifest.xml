@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
+  <Id>f91c3d21-ba89-40a2-9b18-1baf014ea426</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Monastic</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Monastic"/>
+  <Description DefaultValue="Interactively insert statistical output from R or Python into your documents."/>
+  <IconUrl DefaultValue="http://localhost:5173/src/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="http://localhost:5173/src/assets/icon-64.png"/>
+  <SupportUrl DefaultValue="https://github.com/joelholwerda"/>
+  <Hosts>
+    <Host Name="Document"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="http://localhost:5173"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
