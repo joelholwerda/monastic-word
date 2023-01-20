@@ -19,6 +19,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
+    "@types/material-ui": "^0.21.12",
     "@types/office-js": "^1.0.311",
     "@types/office-runtime": "^1.0.29",
     "@types/react": "^18.0.26",
